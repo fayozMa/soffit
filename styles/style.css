@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    gap: 717px;
+    width: 1240px;
+    height: 43px;
+    margin-top: 65px;
+}
+.menu-bar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.menus {
+    display: flex;
+    gap: 35px;
+}
+.menus a {
+    width: 68px;
+    height: 23px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--gray-color);
+}
+.menus a:hover{
+    transition: all 0.3s ease;
+    color: var(--white-color);
+}
+.lang {
+    display: flex;
+    gap: 10px;
+    width: 99px;
+    height: 35px;
+    border-radius: 75px;
+    border: 1px solid #FFFFFF;
+}
+.lang button{
+    width: 20px;
+    height: 23px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: transparent;
+    border: 0px;
+    color: var(--gray-color);
+    margin-top: 6px;
+}
+.lang :nth-child(1) {
+    margin-left: 5px;
+}
+.lang button:hover{
+    transition: all 0.3s ease;
+    color: var(--white-color);
+    cursor: pointer;
+}
