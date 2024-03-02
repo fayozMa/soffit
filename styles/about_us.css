@@ -1,0 +1,245 @@
+nav {
+    display: flex;
+    gap: 717px;
+    width: 1240px;
+    height: 43px;
+    margin-top: 65px;
+}
+.menu-bar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.menus {
+    display: flex;
+    gap: 35px;
+}
+.menus a {
+    width: 68px;
+    height: 23px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--gray-color);
+}
+.menus a:hover{
+    transition: all 0.3s ease;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.lang {
+    display: flex;
+    gap: 10px;
+    width: 99px;
+    height: 35px;
+    border-radius: 75px;
+    border: 1px solid #FFFFFF;
+}
+.lang button{
+    width: 20px;
+    height: 23px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: transparent;
+    border: 0px;
+    color: var(--gray-color);
+    margin-top: 6px;
+}
+.lang :nth-child(1) {
+    margin-left: 5px;
+}
+.lang button:hover{
+    transition: all 0.3s ease;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.reachus__main-img {
+    width: 100%;
+    margin: 0 auto;
+}
+.blue_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 42px;
+    padding: 10px, 15px, 10px, 15px;
+    border-radius: 50px;
+    gap: 5px;
+    background-color: var(--blue-color);
+    border: 0px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white-color);
+}
+.white_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 163px;
+    height: 42px;
+    padding: 10px, 15px, 10px, 15px;
+    border-radius: 50px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+.reachus__btns {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    margin-top: -20px;
+}
+.reachus {
+    position: relative;
+    margin-top: 85px;
+}
+.user_info {
+    display: flex;
+    flex-direction: column;
+    width: 1,060px;
+    height: 343px;
+    gap: 35px;
+    margin-top: 50px;
+}
+.user_info p{
+    width: 1021px;
+    height: 132px;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.user_info a {
+    margin-top: 35px;
+    padding: 10px 0px;
+}
+.user_info :nth-child(2) {
+    width: 1060px;
+    height: 176px;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.user_info :nth-child(2) span {
+    color: var(--blue-color);
+}
+.gallery_title {
+    width: 120px;
+    height: 48px;
+    font-family: Manrope;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 66px;
+    margin-bottom: 30px;
+}
+.gallery {
+    display: flex;
+    overflow: auto;
+    gap: 45px;
+}
+.gallery img {
+    margin-bottom: 60px;
+}
+footer {
+    border-top: 1px solid var(--gray-color);
+    width: 1515px;
+    height: 415px;
+    max-width: 1563px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 363px;
+    height: 244px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-right: 31px;
+}
+form label {
+    width: 286px;
+    height: 22px;
+    opacity: 0.3px
+}
+input ::placeholder {
+    color: var(--gray-color);
+}
+input {
+    width: 363px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid var(--gray-color);
+    background-color: transparent;
+    color: var(--white-color);
+}
+footer a {
+    color: var(--white-color);
+}
+
+footer h5 {
+    color: var(--gray-color);
+}
+.footer__services , .footer__portfolio , .About_us , .contact_us , .label {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 88px;
+    height: 121px;
+}
+.contact_us {
+    width: 171px;
+    height: 106px;
+}
+.company{
+    width: 265px;
+    height: 19px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 52px;
+}
+.footer__portfolio , .footer__services{
+    width: 95px;
+}
+form button:hover{
+    cursor: pointer;
+}
