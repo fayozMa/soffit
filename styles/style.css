@@ -143,6 +143,7 @@ nav {
     gap: 10px;
     border: 0px;
     background-color: #3b3b41;
+    margin-bottom: 100px;
 }
 .service {
     display: flex;
@@ -150,21 +151,22 @@ nav {
     justify-content: space-around;
     width: 406px;
     height: 509px;
-    border: 1px solid #FFFFFF
+    border: 1px solid #FFFFFF;
+    margin-bottom: 100px;
 }
 .services_title {
-    width: 173px;
-    height: 40px;
+    width: 208px;
+    height: 75px;
     font-family: Manrope;
-    font-size: 32px;
+    font-size: 55px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 75px;
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 30px;
 }
 .service h3 {
-    width: 173px;
+    width: 222px;
     height: 40px;
     font-family: Manrope;
     font-size: 32px;
@@ -233,8 +235,10 @@ nav {
 }
 footer {
     border-top: 1px solid var(--gray-color);
-    width: 1440px;
+    width: 1515px;
     height: 415px;
+    max-width: 1563px;
+    margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 70px;
 }
@@ -268,10 +272,12 @@ input {
     border-radius: 50px;
     border: 1px solid var(--gray-color);
     background-color: transparent;
+    color: var(--white-color);
 }
 footer a {
     color: var(--white-color);
 }
+
 footer h5 {
     color: var(--gray-color);
 }
@@ -295,6 +301,9 @@ footer h5 {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    margin-left: 103px;
+    margin-left: 150px;
     margin-top: 52px;
+}
+.footer__portfolio , .footer__services{
+    width: 95px;
 }
