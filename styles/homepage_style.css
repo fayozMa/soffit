@@ -28,6 +28,7 @@ nav {
 .menus a:hover{
     transition: all 0.3s ease;
     color: var(--white-color);
+    cursor: pointer;
 }
 .lang {
     display: flex;
@@ -306,4 +307,7 @@ footer h5 {
 }
 .footer__portfolio , .footer__services{
     width: 95px;
+}
+form button:hover{
+    cursor: pointer;
 }
